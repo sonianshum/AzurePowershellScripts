@@ -4,9 +4,7 @@ param (
   [string] $ObjectId
 )
 
-# This script copied from Defender
-
-# Check whether we have the Azure RM cmdlets (Azure PS version > 0.9.8).
+# Check whether we have the Azure RM cmdlets
 if(Get-Module -Name "AzureRM*" -ListAvailable)
 {
     Write-Verbose -Verbose "Using Azure RM cmdlets..."

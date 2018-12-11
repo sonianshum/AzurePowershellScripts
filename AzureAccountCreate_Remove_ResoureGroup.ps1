@@ -2,7 +2,7 @@
 
 Get-AzurePublishSettingsFile
 
-Import-AzurePublishSettingsFile 'D:\AzureDeploy\Visual Studio Enterprise-4-22-2016-credentials.publishsettings'
+Import-AzurePublishSettingsFile 'D:\AzureDeploy\Visual Studio Enterprise-#####-credentials.publishsettings'
 
 //Get the Cuurent Logined Subscription
 
